@@ -1,0 +1,27 @@
+# Supplementary experiments (working results)
+
+Edit `EXPERIMENTS_TO_RUN` at the bottom of `supplementary_experiments.py`, then run the file directly in an IDE. Each `run_*` function is an independent experiment, so one or several experiments can be selected. The script reads the archived inputs without changing them, writes CSV results in this directory, and displays figures interactively without saving them. Dependencies: `numpy`, `scipy`, `networkx`, `matplotlib`. The script includes a small self-check.
+
+## Inputs and scope
+
+- `../worldcities.txt`: the first 1,000 city records and their population column. The static ablation follows the latitude/longitude population-marginal sampling and 33×33 satellite grid in `../scaleFreeProve.py`; it **does not use GPW**. The uniform comparator samples uniformly over Earth's surface area, with the same 30,000 generated terminals and grid. The static plot contains all satellites and covered ground nodes as in Figure 5; its tail inference uses degree ≥4, excluding degree-one ground nodes.
+- `../../NetworkSurvivability/satData/`: saved GML topology snapshots for the three original shells, saved t=0 link lists for a 48×24 configuration, and two 1,440-point legacy L–M exponent series. The 48×24 row is reconstructed from **existing saved links**, not from a newly propagated orbit simulation.
+- Computationally expensive discrete-tail inference uses four prespecified snapshots per shell (minutes 0, 360, 720, 1080), not every minute. Periodicity uses all 1,440 saved L–M estimates for the two shells for which they exist.
+
+## Outputs by reviewer request
+
+| Request | Output | Interpretation |
+|---|---|---|
+| R1-1 | `attachment_proxy.csv`, `attachment_proxy_fit.csv`; scatter and fitted scaling line shown interactively | First/second-half arrival proxy for degree-dependent attachment opportunities; **not** observed handover or a direct estimate of the analytical growth process. |
+| R1-3, R1-4 | `table1_robust_refit.csv` | The six saved degree distributions used by Table 1. The power-law result retains a descriptive factor-two logarithmic-binning L--M fit on the selected tail. Formal inference separately uses discrete power-law MLE with KS-selected `xmin`, tail size, fixed-cutoff bootstrap exponent CI, 99-replicate refitted KS goodness-of-fit, and a multi-start, bounded discretized-lognormal fit on the same unbinned tail. |
+| R1-3, R1-10 | `dynamic_snapshot_statistics.csv` | Largest connected component of each saved shell, then all nodes of degree ≥4, matching the original `Multilayer.py` histogram population. The same dual descriptive-log-binned/formal-unbinned pipeline is applied to four prespecified snapshots per shell and to the corresponding combined network. |
+| R1-5 | `static_ablation.csv`; plot shown interactively | Code-population-marginal sampling versus surface-area-uniform sampling. |
+| R1-6, R2-1 | `association_sensitivity.csv` | Saved multi-association GML versus a **new** single-association choice based on minimum distance in the saved candidate-link file. The latter is not the archived topology's rule. |
+| R1-7 | `periodicity_peaks.csv`; plot shown interactively | Autocorrelation and spectrum of the saved descriptive L–M series. Spectral harmonics must not be labelled independent orbital periods without further validation. |
+| R1-8 | `cross_constellation_static_statistics.csv`, `cross_constellation_degree_distribution.pdf`, and `.png` | Static t=0 comparison using the paper's saved three-shell Starlink topology plus archived Kuiper, Telesat, and OneWeb trajectories. Starlink, Kuiper, and Telesat use four ISLs per satellite and retain degree $k\geq4$; OneWeb uses satellite--ground links only and retains its natural support from $k\geq1$. All cases use the same 5,000 population-aware terminals and coverage rule. |
+| R1-9 | `hub_failure_sensitivity.csv`; plot shown interactively | Shell 1/t=0: removing the highest-degree 1%, 5%, or 10% of satellites versus 199 equal-size random removals; counts covered ground nodes losing all access links and lost access edges. It is **not** a routing, capacity, or congestion simulation. |
+| Definition check | `degree_population_check.csv` | At shell 1/t=0, contrasts the original all-node degree ≥4 population with satellite-only degrees. |
+
+`binned_lm_alpha`, `binned_lm_prefactor`, `binned_lm_r2_log`, and `binned_lm_n_bins` describe the power-law-only L--M fit after factor-two logarithmic binning of the same selected tail. `alpha` remains the unbinned discrete-MLE exponent used by the formal tests. `llr_pl_vs_lognormal` is log-likelihood(power law) minus log-likelihood(lognormal), on the **same unbinned fitted power-law tail**; positive favors power law. `p_vuong` is a two-sided, asymptotic comparison, not a power-law fit test. The smallest possible reported KS bootstrap p-value is 0.01 with 99 replicates. A large KS p-value only means this test did not reject the fitted tail; it does not establish that the full network is scale-free or that power law uniquely wins. Compare models and tail sizes before drawing that conclusion. New unbinned MLE exponents are **not** the descriptive log-binned L--M values.
+
+R1-2's theoretical exponent `2 + 4/m` cannot be numerically compared until the growth parameter `m` is defined/mapped to these fixed-constellation simulations by the authors. No value is invented here. Neither the manuscript nor the response draft was changed by this script.
