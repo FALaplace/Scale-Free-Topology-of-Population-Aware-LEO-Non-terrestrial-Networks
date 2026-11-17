@@ -1,0 +1,1635 @@
+{
+  "seed": 20261111,
+  "minutes": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165,
+    180,
+    195,
+    210,
+    225,
+    240,
+    255,
+    270,
+    285,
+    300,
+    315,
+    330,
+    345,
+    360,
+    375,
+    390,
+    405,
+    420,
+    435,
+    450,
+    465,
+    480,
+    495,
+    510,
+    525,
+    540,
+    555,
+    570,
+    585,
+    600,
+    615,
+    630,
+    645,
+    660,
+    675,
+    690,
+    705,
+    720,
+    735,
+    750,
+    765,
+    780,
+    795,
+    810,
+    825,
+    840,
+    855,
+    870,
+    885,
+    900,
+    915,
+    930,
+    945,
+    960,
+    975,
+    990,
+    1005,
+    1020,
+    1035,
+    1050,
+    1065,
+    1080,
+    1095,
+    1110,
+    1125,
+    1140,
+    1155,
+    1170,
+    1185,
+    1200,
+    1215,
+    1230,
+    1245,
+    1260,
+    1275,
+    1290,
+    1305,
+    1320,
+    1335,
+    1350,
+    1365,
+    1380,
+    1395,
+    1410,
+    1425
+  ],
+  "checkpoints": [
+    0,
+    360,
+    720,
+    1080
+  ],
+  "earth_radius_km": 6371.0,
+  "minimum_elevation_deg": 55,
+  "terminal_count": 5001,
+  "satellite_counts": [
+    1584,
+    1600,
+    400
+  ],
+  "node_identity": "one node per archived coordinate record; no city-name merging",
+  "distance_metric": "same spherical great-circle distance in both main arms",
+  "versions": {
+    "python": "3.10.0",
+    "numpy": "1.26.4",
+    "scipy": "1.13.0",
+    "networkx": "3.2.1",
+    "matplotlib": "3.10.0"
+  },
+  "runner_sha256": "ec054edebe2013db25e56919672604c3488fb127f3f449fc72906d247a66a106",
+  "statistics_source_sha256": "98fe6e3d49e2aa27e4b130e59116f259b0e244a018d65aa9156b7c08e3f8043c",
+  "sources": [
+    {
+      "path": "H:\\PaperSubmit\\ASR2026\\code\\rawdata\\ground_stations_cities_5000.txt",
+      "sha256": "799fe5d5ad3e6dcd1ee6217087d547b4427f7e8c35ed853483f1d88ee4be2a89",
+      "role": "ground_records"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\0_ms_satTerrainGraphgml",
+      "sha256": "a74f0e2b6267ede8763aef83f0c406939c931069732fd205eff8ed7aac7ee9ce",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\GSLlink\\0_ms_GSLLink.txt",
+      "sha256": "106a3b92e423b82255f517ca31cbeb20d4b6dae8048777ff358e1d872c8c88e8",
+      "role": "archived_candidate_links"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\900_ms_satTerrainGraphgml",
+      "sha256": "c8dfbbc2295ab5da4c1a464f26475df888f7aea60ea4c900bf4c2470f0e2c298",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\1800_ms_satTerrainGraphgml",
+      "sha256": "f6316af7d014ca0d150c12c91129136643ddb4ac0840cba439c3fe900cbda330",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\2700_ms_satTerrainGraphgml",
+      "sha256": "948e2a44d3b634e76d8eb4f7b920ed38ca700e8c98dfbf2416b5172799907376",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\3600_ms_satTerrainGraphgml",
+      "sha256": "395626c578711689a5a654080edd7706086a34f45a5e19131b03a75b129910a1",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\4500_ms_satTerrainGraphgml",
+      "sha256": "634b45173e32e7fdd850283c71a444360da3351d15d7ddbfda8d106e92da922a",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\5400_ms_satTerrainGraphgml",
+      "sha256": "8643fda7d5a96155c4f752946f2110124195daa00cc248ce0b664fe39e4c04d7",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\6300_ms_satTerrainGraphgml",
+      "sha256": "e81accd5ede336a97af15b14fef95d8e7dffe375e1b1f911bed1c086647ee118",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\7200_ms_satTerrainGraphgml",
+      "sha256": "4734c551ea7d8ecdb52557cc476c59c2c8f96c71f79d6b9830e53f44b1888998",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\8100_ms_satTerrainGraphgml",
+      "sha256": "7dfb105a76ac373972bd4335b15a1eca951217904f097df6ae529910a95499ae",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\9000_ms_satTerrainGraphgml",
+      "sha256": "9510c9386c3937665867ee17d7b8c48c4b9f7d7e770940edfee837789e42b18f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\9900_ms_satTerrainGraphgml",
+      "sha256": "b0b9f870bebe64e6f72ebe9394bee2c7bdd37c749c25832b43941af7e84cf4ee",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\10800_ms_satTerrainGraphgml",
+      "sha256": "893e5b1e218d58faae29dbc147280fcf3a6b02adffea02e156a14eef24c10b61",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\11700_ms_satTerrainGraphgml",
+      "sha256": "74a56263ca5212dc4efcbfe1d02106c50bc89ed0b239629d4ba697766cd7e509",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\12600_ms_satTerrainGraphgml",
+      "sha256": "de139b416915953e80b74dd9a4fc199d480a221ff6381bcd29ae3be8c26a1321",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\13500_ms_satTerrainGraphgml",
+      "sha256": "2b9a987c1c17ab09b3be2395a50caa550d28e67fa299ff7f66b034a9a9710dbc",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\14400_ms_satTerrainGraphgml",
+      "sha256": "355ea286260f39b6b64602d6fcd321a4082bec22e59b922d52a974d244d35b24",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\15300_ms_satTerrainGraphgml",
+      "sha256": "3edd164e787273c24eefbe048af358351d96feb3ea31592efe2ae92c219627ec",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\16200_ms_satTerrainGraphgml",
+      "sha256": "eebe437b375fd4d73e270d729e9957006f90dbc296e1494c697ea887084c3daf",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\17100_ms_satTerrainGraphgml",
+      "sha256": "09a40953ffb224e3b499256b2efd307a79e7473cd5f060b1b37d72d32550be14",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\18000_ms_satTerrainGraphgml",
+      "sha256": "c8e4e349aecfcef7961162f7f66000035506a7944463198d860a5a5055d9f92d",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\18900_ms_satTerrainGraphgml",
+      "sha256": "db52e9d668c466c12d343b780d512b6647b86cfe758225d2c3bf74545d5e820d",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\19800_ms_satTerrainGraphgml",
+      "sha256": "63aa38d8bae9b55ce7d6bff012016602df180a1e6f4ee3c488fa6f090116bf87",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\20700_ms_satTerrainGraphgml",
+      "sha256": "52dcd27fd7843075ebfba4f88f5f9eb54a9803b4483ca660a79e6f963d08af2f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\21600_ms_satTerrainGraphgml",
+      "sha256": "7b354beaff6c57f4db17163e843680f58c518e37864324638ed0dacba864c287",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\GSLlink\\21600_ms_GSLLink.txt",
+      "sha256": "ff31bfa8caff5959fb5397224c2e53377ab42c7bcf16f04e5932ae06a642e5b8",
+      "role": "archived_candidate_links"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\22500_ms_satTerrainGraphgml",
+      "sha256": "afa7eae0402ee4d5ae1f68e1db4b7492c896b4aa9265c8bda8a8e6cccdb76cc8",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\23400_ms_satTerrainGraphgml",
+      "sha256": "9b45fb619c1e2baeb1590f93fbd3c2e718c142ec54c8c524449602248165f340",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\24300_ms_satTerrainGraphgml",
+      "sha256": "b2bed393578d5eca50ed14b4c4bc1d25ce150cab269c35ff6e896873eb6545ae",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\25200_ms_satTerrainGraphgml",
+      "sha256": "9cd795e5fa4333bbb2b462d91a8dfbbc46c215efbe27b2cceb215ea538375d03",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\26100_ms_satTerrainGraphgml",
+      "sha256": "5317c1e219903bdfa0398298a5227e0bb47d6f79430168f86dc915d7443612df",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\27000_ms_satTerrainGraphgml",
+      "sha256": "4477021790a0a593adfb361a8a32c157d27cdda7261fe81aa721330065e2af0c",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\27900_ms_satTerrainGraphgml",
+      "sha256": "827eb42e7b4ddf7ff90cb305b490625e6ffb514abc8d3f786ffaf456fd38a22e",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\28800_ms_satTerrainGraphgml",
+      "sha256": "414f2c24e35f59d312bd36006180cf24ca2994486c970fb378af3e589e7c5c89",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\29700_ms_satTerrainGraphgml",
+      "sha256": "5895423eccfa962180c3c614585df9b7c330ec760fd57852300c1fb2875ee384",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\30600_ms_satTerrainGraphgml",
+      "sha256": "5e8fe58b3c40d19a98fd201b7cd0d592cbf32f5be42d2204dc16716fa3bd4e85",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\31500_ms_satTerrainGraphgml",
+      "sha256": "affe7745a3c3db2ede830f800517d0d430868013ee9c0e46c6809cbec6d37e43",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\32400_ms_satTerrainGraphgml",
+      "sha256": "b3132e189b2c5c7353a7886dba857534e7f7111b2eda7f5000f3d7f8e1ab662d",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\33300_ms_satTerrainGraphgml",
+      "sha256": "48932959bfe6ea025a95666cb1b3953e44707a3bc52435c02e15b81a965dd67f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\34200_ms_satTerrainGraphgml",
+      "sha256": "69dacae6f28cfa0a5a05b36f05269f17c81bb285202bbfce5115efe8b0d9c80d",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\35100_ms_satTerrainGraphgml",
+      "sha256": "b6890d32f51ae1e8b985ef5e959331842398af366e1373f25f60ade70bd33747",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\36000_ms_satTerrainGraphgml",
+      "sha256": "0b8970d63e3d26624db4d808f93cc590072f4ab39b30640312872b24bfb338ea",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\36900_ms_satTerrainGraphgml",
+      "sha256": "e68a9f416c8d27dcf9babf0b3ff9e50c68f02882acc0cfae27494c844724e2d3",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\37800_ms_satTerrainGraphgml",
+      "sha256": "b5fbfc5f4b0dc19d734470b8826bb15ad3edf76d027a94ae6d4ef3f13b285a9b",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\38700_ms_satTerrainGraphgml",
+      "sha256": "acca2c81516499e51cf24402fb596648962e9800eda82013215c7b5f359abeb1",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\39600_ms_satTerrainGraphgml",
+      "sha256": "f9aeb6f92823daaf217677815b55b161f1841053ce006caf72f841485f6add64",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\40500_ms_satTerrainGraphgml",
+      "sha256": "4413b847a2bd5c27b0fee7935a24cc3a918792726472c49edbe43a92da724f57",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\41400_ms_satTerrainGraphgml",
+      "sha256": "2ce591f7c50ec8306d15e0c03dcb5d36eaf4368f1bffd1d1ae0e8429a097dd66",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\42300_ms_satTerrainGraphgml",
+      "sha256": "ad8326bf084bd3afe486c18d7526ab002194cf8a732d99674703a6372b2bffbe",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\43200_ms_satTerrainGraphgml",
+      "sha256": "28a997d51ccaabbe199287ddb23fb102d0803550567bda7367b04e354c6736b9",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\GSLlink\\43200_ms_GSLLink.txt",
+      "sha256": "380d53d914be187a329dd358be466ccb8539c9f53798fe2929b5aa3d132be2c8",
+      "role": "archived_candidate_links"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\44100_ms_satTerrainGraphgml",
+      "sha256": "6d8dfdda1c324f62e71b04d1903ef56956e4014344918e7bee468d32599558ff",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\45000_ms_satTerrainGraphgml",
+      "sha256": "ef5cb1111847e01039160f7fa468835c0613258f028a87e81630aae503db9ceb",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\45900_ms_satTerrainGraphgml",
+      "sha256": "c9802512b6e2441c9f012b7e5c6bc8d7b9a560188fe674af847a18e265990f7a",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\46800_ms_satTerrainGraphgml",
+      "sha256": "dbb03f5687aa53cf771c7660492d0bcd641c1b4dc791941d4c77270dd122a2c7",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\47700_ms_satTerrainGraphgml",
+      "sha256": "92546c382634a599d4473d6bd3d62991f6100c9393356691292a0131d98deacd",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\48600_ms_satTerrainGraphgml",
+      "sha256": "7efe141ef75d03025917143ca3b1ba344cfeedc6c6a445b27a360c4d0568baac",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\49500_ms_satTerrainGraphgml",
+      "sha256": "202916baa01abbea5d28ca5ac36bd66e167f7827439b7945105c66e0242d3e50",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\50400_ms_satTerrainGraphgml",
+      "sha256": "578e00dd9f269c9510455b198e6b7ba84dbd789a8d2610dc5e8f7a6ef1dc1883",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\51300_ms_satTerrainGraphgml",
+      "sha256": "4e0e13805f8370df766e54e340080184931f8b0ee23c8178a4b26f18122a4b5b",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\52200_ms_satTerrainGraphgml",
+      "sha256": "9cf15c9caaa2f1f24a4bfbaeaf2fdf3697a469ea73b40d0886975e86acac0ede",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\53100_ms_satTerrainGraphgml",
+      "sha256": "3dad51b362201fd288c916e5902210cc1b4b42478eac7ce6b4e27ae3101ebae0",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\54000_ms_satTerrainGraphgml",
+      "sha256": "1a74a8dcadbeb4d5f2c82a23379d798ca1e847939b0614074d7ed852d6e721bb",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\54900_ms_satTerrainGraphgml",
+      "sha256": "39c301ddfdffcc80966f21e75aaa6c980405b535e798a7143bfb9c4d8b753b1e",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\55800_ms_satTerrainGraphgml",
+      "sha256": "5003c93d7741752c28edddde0ab030debfc98e4630e9bbe4bb45f7014ca2f57f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\56700_ms_satTerrainGraphgml",
+      "sha256": "14fe4147ac85f21cf48655762fc2fac95d461eafe4e3035f26fcaf66a2676abe",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\57600_ms_satTerrainGraphgml",
+      "sha256": "4f8c7407f4eb9cbf805cee14ede2d2c6face445968317bfdc554e9bcad8a0cc6",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\58500_ms_satTerrainGraphgml",
+      "sha256": "aa86a824bf3941851923b7a2efddad00d5df18c62910e775d17caf640b774536",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\59400_ms_satTerrainGraphgml",
+      "sha256": "c9d0bcc522019f86a9d6b31a95973fde262602a7fbcc02ef3ad3da7987e2a1fb",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\60300_ms_satTerrainGraphgml",
+      "sha256": "2be760eb1ae5726803c9ac8062b79147c181c5d79ba77aa4c7cd20df3713a27e",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\61200_ms_satTerrainGraphgml",
+      "sha256": "8cfa69c06f5e632829dafe993897da2a533636bae9c6a642a5cf7901a1a2679a",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\62100_ms_satTerrainGraphgml",
+      "sha256": "d887a329e7639e60ebc430605da682c40cd5ec404206913887825fea5a7895a5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\63000_ms_satTerrainGraphgml",
+      "sha256": "7fe8f6eb88097e50c6751c3b1ac3ca17fe80046bec410cfb8649dc80241d54b5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\63900_ms_satTerrainGraphgml",
+      "sha256": "68746d8d1b089ba892ad26e5445ad9ad6428cbeaf754667cbb30254a1a72d1b1",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\64800_ms_satTerrainGraphgml",
+      "sha256": "6250f80c0d0734b3ed91a805673517cda7b4b77f864105ca64a7d7ba10583861",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\GSLlink\\64800_ms_GSLLink.txt",
+      "sha256": "1d1db24bd6f789319fd6ee7653d88893841253935ef0d6ba484ba0f4f0284a15",
+      "role": "archived_candidate_links"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\65700_ms_satTerrainGraphgml",
+      "sha256": "e16971982638c21d6bd3d236e92e54694bf8f50f6c4aa99e3d5759b2e9b9adff",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\66600_ms_satTerrainGraphgml",
+      "sha256": "616f6f60164121e4b07a743a1d7b629aeaa59cf22358649974b7cd60c0a2bd07",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\67500_ms_satTerrainGraphgml",
+      "sha256": "bf059fcc67266610b3ac88d158503294f55ed860bed21d920c00e3b353181e74",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\68400_ms_satTerrainGraphgml",
+      "sha256": "9f3db0469c38d48f273eea3a72371dd550d51405a460390410620ea3e69165ac",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\69300_ms_satTerrainGraphgml",
+      "sha256": "619b9d98ac834ed02edca9600b2cd837009a11e4396135fef1ff17002ffa42c7",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\70200_ms_satTerrainGraphgml",
+      "sha256": "5684b4b35fc5962599e72ecdcdba958d7bf9a4e37191a322fb2503a44dc2f011",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\71100_ms_satTerrainGraphgml",
+      "sha256": "bfacc580cdb8e620026525de46135de956f4c14f04cd100910b49b852904837f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\72000_ms_satTerrainGraphgml",
+      "sha256": "94fcd8f9ce8a7820b2358c24e0dc323281c1677a8aeea6cd9994834f828354fe",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\72900_ms_satTerrainGraphgml",
+      "sha256": "d54c7ac3c12a2d7c302ef41dbda40b2408dfb15c2547d4108113137f66ad2ee9",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\73800_ms_satTerrainGraphgml",
+      "sha256": "8717a2da20484f14b4f70d0d220f1497953c2806a6954e473ebf0260a3eaf988",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\74700_ms_satTerrainGraphgml",
+      "sha256": "896fa00b6770e1de4db41b39e90271cb03fe468ae90a4bd9087cceb421b43f46",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\75600_ms_satTerrainGraphgml",
+      "sha256": "976c10ece74160778bfa4c8862d166b9d249dc71f831f051469aa8b513b6592d",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\76500_ms_satTerrainGraphgml",
+      "sha256": "ffe95ab59568ca1fddb4c271df6c378ac11e980911523f06afcf2dda6b16b967",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\77400_ms_satTerrainGraphgml",
+      "sha256": "5034c6b9af03bac36b21c77c789e785e231f8d227e8d5aa70014086c371d9943",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\78300_ms_satTerrainGraphgml",
+      "sha256": "db05d33a0165aa94a6634bda7ff55d565a739aa783843291fc531141cbd207da",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\79200_ms_satTerrainGraphgml",
+      "sha256": "de1efd978f95fe3f2c01f76975a4f05b580501702ada0d2ab42aa094e656b76e",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\80100_ms_satTerrainGraphgml",
+      "sha256": "d769d45f92512d29f453a972057ad4cb9dc326c63eaaa43e84c4842e074f8bd7",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\81000_ms_satTerrainGraphgml",
+      "sha256": "d714fb07ca84c7503f707115fed367eb1a5e558afc6d79019d7de058de221a82",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\81900_ms_satTerrainGraphgml",
+      "sha256": "0c6fee00f073d37dd768db39f875a9150ee0687acf938fde733148755386e102",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\82800_ms_satTerrainGraphgml",
+      "sha256": "46a2e4e3a058736ca69fd86e352d8a84f6e003d8321f9521e293ed62114ff568",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\83700_ms_satTerrainGraphgml",
+      "sha256": "050f49ca8bad2b9eb2bdc8028b36ec62c30c3caba98ce610f44205cab0f533ff",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\84600_ms_satTerrainGraphgml",
+      "sha256": "915eaf851ee73439fd3bdc3ab6938b33fcdf47a6900b9f2f31c15637d16f9dc8",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\72_22_550_55_5000_60ms\\Graph\\satTerrainGraph\\85500_ms_satTerrainGraphgml",
+      "sha256": "8125e7888ae2339e8eee3b8e513c8749b0999bdfb2a15f5ec4d9cd42c91526ab",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\0_ms_satTerrainGraphgml",
+      "sha256": "244c93ef8bca146d40049b6c8bcfdf44d31c5faa3b2959996a7f40e064755a31",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\GSLlink\\0_ms_GSLLink.txt",
+      "sha256": "0cce299de125d1502eea06b059896704c1415130d798783076482114d8e8b273",
+      "role": "archived_candidate_links"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\900_ms_satTerrainGraphgml",
+      "sha256": "09ac23e19ad7ff41eda5a5db786bfba833af55f0ac666a96aa9b494e4d20cc4f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\1800_ms_satTerrainGraphgml",
+      "sha256": "56e38fb907b40648c34be7d412288dcc39a8d164197bba1197a56efd5deebae5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\2700_ms_satTerrainGraphgml",
+      "sha256": "0bf21bbc0fb5e303a04c56003b3b644f920a43edb230c74615b39db442a28200",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\3600_ms_satTerrainGraphgml",
+      "sha256": "287557fc6baf1910bb4ff00d912eb8811e7042500ef8ce155f7b8c13e79d95f0",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\4500_ms_satTerrainGraphgml",
+      "sha256": "f84e58fadee1a7ddcfa6ca8642b21254e73709d2b44292f04644e248226dd56a",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\5400_ms_satTerrainGraphgml",
+      "sha256": "30ba025c91060b18768aef8281a0cc74660a9cfa9b86c10ca454dc8883ac85f6",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\6300_ms_satTerrainGraphgml",
+      "sha256": "404ebd3cfbc552a1f3b7eae25efeeb3fb2a117825813e8a9fe2bc098dea3d406",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\7200_ms_satTerrainGraphgml",
+      "sha256": "0e448dfd0764e39ab16d9a0204e6b65f886311844e4186e97351206faaf025d8",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\8100_ms_satTerrainGraphgml",
+      "sha256": "364a750d52f8bf856c674dfa6a8a3b460b5fa9c03b62619c6098d1a90ba1996d",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\9000_ms_satTerrainGraphgml",
+      "sha256": "9988ad418e3db3aa651a83d99405adb3b92267965cf238d32e41548aa1e3a6a4",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\9900_ms_satTerrainGraphgml",
+      "sha256": "907aecc670605287882b315f4d521c7038d6d33791d640c69db01f30b4e464f5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\10800_ms_satTerrainGraphgml",
+      "sha256": "bda2337e74545b60b2eb5885e5ece47b8bb2e5ac3384afd452213d058e8e1cc7",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\11700_ms_satTerrainGraphgml",
+      "sha256": "7919b00cd742dc3a778fbaf8c101fa16d3cd870d32c225ab8b11efe4bc42a01d",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\12600_ms_satTerrainGraphgml",
+      "sha256": "cc14df372014fd89f9f9d796487b25203d235c9d89f5720ba7e28f1c2aa012a9",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\13500_ms_satTerrainGraphgml",
+      "sha256": "aebdca79ed39fc68d3f52537479302fd03f9c94277df54de7f9fa71f35ab2c3a",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\14400_ms_satTerrainGraphgml",
+      "sha256": "6031aa1e0e376073e359e297e705e9d624f370c6cbdfaf3b5edf0d1335231ba0",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\15300_ms_satTerrainGraphgml",
+      "sha256": "80835caab93e2f4fb25205e24a4ecb61aa877126631352b1b50a800f1f632c70",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\16200_ms_satTerrainGraphgml",
+      "sha256": "72d12564c8d007095f17557ae4f87b077ac739dcdfe98896fbf3d36eed372deb",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\17100_ms_satTerrainGraphgml",
+      "sha256": "e225d44828af2ca94af3abda57113f1beb2b4787be26600398b661f75cc223ad",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\18000_ms_satTerrainGraphgml",
+      "sha256": "4059c35cf8d4de6f22d32099518adf7be5d373cd4f06a8aeeb98853af042be8b",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\18900_ms_satTerrainGraphgml",
+      "sha256": "b1a2dc0d45c713cb5d812afbf6e4019136078c01dcf52df621347a120ebdd2ad",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\19800_ms_satTerrainGraphgml",
+      "sha256": "fc23f9c9403ff983a407779233fb4073dae6f5e2e8e5dc7379ea26e01aa04db8",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\20700_ms_satTerrainGraphgml",
+      "sha256": "7ff61b9d67ac22fd93fe976d0847d178e654be8452cd30f882f4b7fbd5f7d095",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\21600_ms_satTerrainGraphgml",
+      "sha256": "e18ac5f216213c6c46efea54246d5ee37bf4a49dfc12f63ae8544ca5ada62777",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\GSLlink\\21600_ms_GSLLink.txt",
+      "sha256": "a0ff5fd2a7957b48cf79661ae52c39b0d587184980bd7d52302a63646ce73544",
+      "role": "archived_candidate_links"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\22500_ms_satTerrainGraphgml",
+      "sha256": "4ff31694eff8dd6ff913b4179f0452a0c221935a8ba67c1dc8f764fc014fec7e",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\23400_ms_satTerrainGraphgml",
+      "sha256": "57f4090ce219d680329599d3e1462975d0e9d202c7903ec030c45f670bdeaffb",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\24300_ms_satTerrainGraphgml",
+      "sha256": "2feeed60d83e5a48816d77537301efb83be2b409eecafa3852021751fbe60c81",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\25200_ms_satTerrainGraphgml",
+      "sha256": "9d5cc92bd7a27c2a5e0a819da7906dcdc777ef1a876e2b4b1f92c20ac52118fc",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\26100_ms_satTerrainGraphgml",
+      "sha256": "4a1ae5e6c3025cd40649a69a8ad9b8d5e736e76a8421d9ecb596be894f363bf5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\27000_ms_satTerrainGraphgml",
+      "sha256": "5a0864fb5e7643c80358526d976e9f1cff7a52cdb32a2aa3382258308a9846b0",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\27900_ms_satTerrainGraphgml",
+      "sha256": "41d9e1f4c1c2e5bf36084a0a04b43e4d5ed58fde1a57f307d590808bcabd5eb6",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\28800_ms_satTerrainGraphgml",
+      "sha256": "8afdb09050bfee4770d0e5553ae6bc6339754dd4533943bd541ae4a0029b6329",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\29700_ms_satTerrainGraphgml",
+      "sha256": "4ec6a91407dc420de8d6b1ab5c37ce323c86a13b9297dc1ad6cf0e7a9567ad36",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\30600_ms_satTerrainGraphgml",
+      "sha256": "533cdb5380e6ce51262ab7b23c4dc89f5b876f745aeb67908f8955500ceda991",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\31500_ms_satTerrainGraphgml",
+      "sha256": "9da95fe49c7eec97faaf59046d5eba1b946284a5b210bcffecc85a9dc67c77b0",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\32400_ms_satTerrainGraphgml",
+      "sha256": "63f3a88f2225dc59e879274558f1174d1bde8b43c16146dabfcc46183269a685",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\33300_ms_satTerrainGraphgml",
+      "sha256": "00cd0a10f45bc8f096742cfdb3cf8ad597dbf01621c7be9ec4e3972a05125dfe",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\34200_ms_satTerrainGraphgml",
+      "sha256": "2e5f4777957f85fa70a2861d25a53c1c077ee68678bb83de5114df6f61dfb951",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\35100_ms_satTerrainGraphgml",
+      "sha256": "95f0a231d5dcf295bbc02d111755a33cef76e704d4d326874fd79504235d82a5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\36000_ms_satTerrainGraphgml",
+      "sha256": "c65dc8912843c294962d13e07eebb81e53440248634eb67aa38b13749833cd09",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\36900_ms_satTerrainGraphgml",
+      "sha256": "516324a4d1fca74fd71d430dcb016c34c6330d8c60e4761579ae391f3ee9a78d",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\37800_ms_satTerrainGraphgml",
+      "sha256": "872e9622788f20e234e02f9552dc24742c83c7199f67de7377508f05aaf10b61",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\38700_ms_satTerrainGraphgml",
+      "sha256": "656aa14f03ed107406fd7b24d304cd209deadaf91d32950260037ce9c0604eae",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\39600_ms_satTerrainGraphgml",
+      "sha256": "25fc91aebff9c56be152fc1a8149b7761acce1574693baa4ef84978f922d63ba",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\40500_ms_satTerrainGraphgml",
+      "sha256": "c86e1cd905da3ca1e29b7e368f76b5355ff3f3a079741de545d9715f212f1048",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\41400_ms_satTerrainGraphgml",
+      "sha256": "9babcea5a861455d61b9c0e1e8a64740a80e2e58ae574ff14b30fc2f742d3e6c",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\42300_ms_satTerrainGraphgml",
+      "sha256": "3afbe2f726d5892a47c186f1984262c19794e932294783776bbc8d86533c9ca5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\43200_ms_satTerrainGraphgml",
+      "sha256": "96459d4e01a456463fa4956276d518ce833cdaa3817cad856e009561b3da4f78",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\GSLlink\\43200_ms_GSLLink.txt",
+      "sha256": "74dbe9e57936a868afd386c1c1b6a365cda9ad1255ce3c895ba1fe9563600318",
+      "role": "archived_candidate_links"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\44100_ms_satTerrainGraphgml",
+      "sha256": "ee006d3f9c464c6583dfc3cd5c3e7e4b3cb34dc7ea25a62518ebb4649b332445",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\45000_ms_satTerrainGraphgml",
+      "sha256": "411136a5c644e48dea2f7c352ee0caad86c3b6061118c1715c537ab887c67542",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\45900_ms_satTerrainGraphgml",
+      "sha256": "921489ab683991e6bdb073333d6360f7b116f08ad1711ee5a29c5fbb36b825cb",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\46800_ms_satTerrainGraphgml",
+      "sha256": "77ca4f484e9d54c014907f7ddc615eb34bdb62823b5d32bde77803b479122975",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\47700_ms_satTerrainGraphgml",
+      "sha256": "2757666ddccaf3eee620900dc69edf534e4db979277a905191702d9f790954c6",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\48600_ms_satTerrainGraphgml",
+      "sha256": "fa082434d47338ea4be65247b736a431c0ac915f53938b26ae5bd16c38c8bea8",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\49500_ms_satTerrainGraphgml",
+      "sha256": "52ca6934c2302c6cbdb99149dd36d407d3e93ec2d281b7ead52aeffd4cd102fd",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\50400_ms_satTerrainGraphgml",
+      "sha256": "63df68aab3147479ce5730caf4a467a0b7d6a1329953258bdbd5db5d2a5c2620",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\51300_ms_satTerrainGraphgml",
+      "sha256": "974b7b8e33edb3633b2b771c99dfa4d29a2c00d516262f166b095e6b855664f5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\52200_ms_satTerrainGraphgml",
+      "sha256": "6f5fe30948a03927e25322edd579a911cd148a89fa646c67990331f0a21a7a6e",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\53100_ms_satTerrainGraphgml",
+      "sha256": "2a9a07928a96dfe945be3644e66789edf6753c19c8bf14f96533fd06f32d17df",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\54000_ms_satTerrainGraphgml",
+      "sha256": "1fffc47f4e08d8bffaabf2a9038d110e657bc9a41662e3baf77d911e0895b29a",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\54900_ms_satTerrainGraphgml",
+      "sha256": "e9465f996273c6d63fdfaf53c5999e43832c23a00ad31f38f067dc8ed73849a1",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\55800_ms_satTerrainGraphgml",
+      "sha256": "282aadb3be1972841dbe6ee1641006c898a7ebbce2674341cd0dba632e93ca07",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\56700_ms_satTerrainGraphgml",
+      "sha256": "07bac8c924f578228b58be331c05c05b14a470dab5f62f31c1aa1dc55023506f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\57600_ms_satTerrainGraphgml",
+      "sha256": "9fa80f8b3012300480d3c553dcfb5b0022e96d04ece69a18d3a8fded5cb9a97b",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\58500_ms_satTerrainGraphgml",
+      "sha256": "6284afe997e270def781815abd59dbfdf5bfda8d88709be3802f044ef946fc82",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\59400_ms_satTerrainGraphgml",
+      "sha256": "98f5127b1c88194bb8c00dc05c1b5b1b009aaae496774eac249e3f0cd0e664f3",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\60300_ms_satTerrainGraphgml",
+      "sha256": "911467426c221214bbb9cac2f620712e19c829722083757e4646211d078eaf73",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\61200_ms_satTerrainGraphgml",
+      "sha256": "b4893e9a17fe3267e348e33730a9b4c6127769c50966fa1fbbc86e993acc0a79",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\62100_ms_satTerrainGraphgml",
+      "sha256": "f5795d11f6e729ce2e3c679fa777d93b2e36d678a7796665409e811b19e8de55",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\63000_ms_satTerrainGraphgml",
+      "sha256": "60e3a8fee4f2a5a2379f9fafaf262c17aa5002132d81ac145dd4f2b5d54d7ff6",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\63900_ms_satTerrainGraphgml",
+      "sha256": "3c8e0d08f55e79ee8988d7bbe6bb05d88c3537bcf0ecfbee88081ac4061bf11f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\64800_ms_satTerrainGraphgml",
+      "sha256": "e3608f8eb19d660151531852e7ae7bce7679e67e25e0120434fc4e4ed5dae3c5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\GSLlink\\64800_ms_GSLLink.txt",
+      "sha256": "5fcbaba489b407bcd0e1ffa05202a3dd7b1eb49a7abd7eebce7788d94d31ed4d",
+      "role": "archived_candidate_links"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\65700_ms_satTerrainGraphgml",
+      "sha256": "77ee528ed651ace88065ae41cc46ff37cc728f553a8a5ff5a0f826b33c87e8c1",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\66600_ms_satTerrainGraphgml",
+      "sha256": "70d1d9be35f5ef80e12e3b6da6d22e6e786bed8e6940a8a34662dabfb8568942",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\67500_ms_satTerrainGraphgml",
+      "sha256": "2ae68634ec3d71527e07103ba73bb4ad459b59ba7964aedd9d8fbbf91ad4fc33",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\68400_ms_satTerrainGraphgml",
+      "sha256": "e4dfcb3e1a7848e51b32414f55348621cc3d86938d5dd362bfc24ad1bc8e2146",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\69300_ms_satTerrainGraphgml",
+      "sha256": "db0724a8d5ed5fc60bac4befaf2ed25f36f64cc3202a798215ec4c8b70b96f82",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\70200_ms_satTerrainGraphgml",
+      "sha256": "b95dcabafaef62e27d84cf1525cef86276c527f2014f5cd4824ce0b5f4371bb7",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\71100_ms_satTerrainGraphgml",
+      "sha256": "aa036d1818a75a9a34211308fa62edd1a7633c8a21df9d7754eade4d26eee1d9",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\72000_ms_satTerrainGraphgml",
+      "sha256": "252c55c4ee15684d43bbcd5eb31a1ed1c827ffef73a7ea0bd8d4f04a4e0c2eec",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\72900_ms_satTerrainGraphgml",
+      "sha256": "a93b82efa47d34ef5b994c031159c8ee47ab35f119bc7ab171e596dda427c220",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\73800_ms_satTerrainGraphgml",
+      "sha256": "e000ce15667fb9f594a756e76b3f5a03105f8757d78bd2b26eaade9e840c5a04",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\74700_ms_satTerrainGraphgml",
+      "sha256": "e24eb259f2814ed70c70465464db85cc99a8344fd96ff453dad72516ce4d585f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\75600_ms_satTerrainGraphgml",
+      "sha256": "18accfa37b414b35df26bc25ba3cb1c212fef20d497ac469aa9dbe7fc2faebc4",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\76500_ms_satTerrainGraphgml",
+      "sha256": "0ee639362c3da4a3255ede94f156e76ade58691482ada0fb864cf251ad4cf913",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\77400_ms_satTerrainGraphgml",
+      "sha256": "06f2416cc4c8a1b8ed8a246cae753e253984c480067d7f92ec45c794d77a0163",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\78300_ms_satTerrainGraphgml",
+      "sha256": "0fe9e993b44271353b7345be78a03fcf6ecbac6a641c15e62973b7f5a3dabbb4",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\79200_ms_satTerrainGraphgml",
+      "sha256": "1f92f838025cbc46a4b877a4d1e5597be02042d08fe3ecbd16e848e861431f66",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\80100_ms_satTerrainGraphgml",
+      "sha256": "1668bfadb0133725ca400c2cb3ed5566cf4c15c037dc5d9c70aa00c4604c1926",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\81000_ms_satTerrainGraphgml",
+      "sha256": "53aa71f050f3723527d0954c66f6a2c1da10314e69034e3dab8c841b803b7cc6",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\81900_ms_satTerrainGraphgml",
+      "sha256": "b588add2ce0561cf58dc5850652bb74c09d4bb85f44f91a0cdce7338be79e1ed",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\82800_ms_satTerrainGraphgml",
+      "sha256": "eabf5e2d7db7fac3df7dd28efbf223c6581fd3757bf2a651c3040389bbba7e7b",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\83700_ms_satTerrainGraphgml",
+      "sha256": "7ac0d18356fe07db08a07637b9f602b48846d0bcde466d0c1149bad5c65270f8",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\84600_ms_satTerrainGraphgml",
+      "sha256": "5449a1de74f6ac4e66a09a571297fc61b128b1dc4214e9922a2f9e3a0acb9647",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\32_50_1110_55_5000_60ms\\Graph\\satTerrainGraph\\85500_ms_satTerrainGraphgml",
+      "sha256": "a5c6eed979a135d201534fd2284d86937c27c6354fd4dea0d4a3599b72a4fab4",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\0_ms_satTerrainGraphgml",
+      "sha256": "f0641181ce4dc553361de14db4a6217c72c278d6d726caa9312acfea6fa13eb0",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\GSLlink\\0_ms_GSLLink.txt",
+      "sha256": "e00f1ee9b107fd949f1e0a1a738dec6c836d9553c1ec725880d50cc94e818dc5",
+      "role": "archived_candidate_links"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\900_ms_satTerrainGraphgml",
+      "sha256": "6fe68a2c494f8817c74701480284177ef1a2f7ccb77d15f5a202a83b20110b59",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\1800_ms_satTerrainGraphgml",
+      "sha256": "92e3a8e0b59c63f8172729fe2e14345814ed4d82c2a2798e6ad01d2f0e7d1786",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\2700_ms_satTerrainGraphgml",
+      "sha256": "c23db80840b6aec48ca4834f452cdb691626581c855a948d43a436361a8b3ba1",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\3600_ms_satTerrainGraphgml",
+      "sha256": "a9315cda282ecf3d74aff9be4ce364ef68c7a256cdabf639ccd582b2a72f84fb",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\4500_ms_satTerrainGraphgml",
+      "sha256": "91105437eefeae3f0fb2a0409d648b89962b14f97a7e42222851521825f67b40",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\5400_ms_satTerrainGraphgml",
+      "sha256": "58ea82fd7e9f199d90e0bff01e7dd342a4beb992fc0f5e93aa3b809bd16bf686",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\6300_ms_satTerrainGraphgml",
+      "sha256": "4b3a937232b2ea7f51b555b487fa94abd4caba7fb1493dfbb14d169879a8c822",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\7200_ms_satTerrainGraphgml",
+      "sha256": "73e0db284f179a6f334affd9a237c6c9b8ba3f0f885ba37337451355561de348",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\8100_ms_satTerrainGraphgml",
+      "sha256": "959797c94d588a7860c1fd84014461699eeba4c89d8e8f57430d09ec9706ed5e",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\9000_ms_satTerrainGraphgml",
+      "sha256": "550a3a70c40dcc5104c18400ae81f0df98751d6661335f857089afa19c4b01ae",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\9900_ms_satTerrainGraphgml",
+      "sha256": "e3ee4999184436c55a6d802a9d7b5b6d0255753925c592627c6968cee657bffe",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\10800_ms_satTerrainGraphgml",
+      "sha256": "fb7c0bb73f5048e49faddff501a9d6d17c0a47f8c8ad387643ebd153995af8d9",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\11700_ms_satTerrainGraphgml",
+      "sha256": "582107fc6d276e5e9e2bf2794bd7335432b92bb838739e418910f9188168e2ee",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\12600_ms_satTerrainGraphgml",
+      "sha256": "2db67dabf556888bd2b1b8915eae451c3f085152ada5746669a7edfb9520cf33",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\13500_ms_satTerrainGraphgml",
+      "sha256": "1404170b07a9b5b569712cbe59f69e322bc73313976970f6e79a76d9ea78029c",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\14400_ms_satTerrainGraphgml",
+      "sha256": "a4636d8f59f4e85fa28d665f6c7de0a70509f841e0f2fa2a2e230f1473ad85d5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\15300_ms_satTerrainGraphgml",
+      "sha256": "2d38a93d95313aa36197c4204148f9471d9f9a9128be66dd8820c25fe0c2c208",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\16200_ms_satTerrainGraphgml",
+      "sha256": "3be1481f05e5f2ed044b8e152a1a88c2b70a353a2a83753717622ddb7b334994",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\17100_ms_satTerrainGraphgml",
+      "sha256": "8868fcf116d65a4704e8ef8732faeea46c9b2a6bce186635a5d55803e9f601e0",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\18000_ms_satTerrainGraphgml",
+      "sha256": "8a605d26ca4ac8d9c45f4255ecf4dc1817d6f501fa99005ea2baa0d1cd8d1b6c",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\18900_ms_satTerrainGraphgml",
+      "sha256": "dd61a0296c72fbedac2c94990626139038661e6484b9bb78071726c59332c506",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\19800_ms_satTerrainGraphgml",
+      "sha256": "c85daed1505a1845c5f6313080259ba6b76dafc0ebbbad9d0f2dde454797b5b5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\20700_ms_satTerrainGraphgml",
+      "sha256": "fe4547fdfa05a4b205c49e38ad2d0ef93120652d01b5596a80cb4aeaade6fa3e",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\21600_ms_satTerrainGraphgml",
+      "sha256": "40b6121487cacfdf31ef019b5a92a30cda438d5f13dfeb359f497ec7f4812e1e",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\GSLlink\\21600_ms_GSLLink.txt",
+      "sha256": "8317eb3e1ea0b87cc9999c9083cc1eab2d7d3a0293ebebf8592038a5e8ba39bd",
+      "role": "archived_candidate_links"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\22500_ms_satTerrainGraphgml",
+      "sha256": "3015bb08fa80147a3f60f20a2ec146cdce82eed76491cac1ffb80459390bbfde",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\23400_ms_satTerrainGraphgml",
+      "sha256": "7c54943d11bac53c4bf9715b8d3a45b231c008917d386b946ac52e2d61832ba5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\24300_ms_satTerrainGraphgml",
+      "sha256": "9de8e271f5d83ac18e1308316fe79de2274c0e11e615951df1430844a24e6759",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\25200_ms_satTerrainGraphgml",
+      "sha256": "e2a62ed8f57cf161ab04f7265c78e05c6c18d8f702a5a20912ec733120a72f3b",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\26100_ms_satTerrainGraphgml",
+      "sha256": "1bf9b456aefff2d6ba74d90d945f2162d2ccb47864f7b5fa4311e37928514878",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\27000_ms_satTerrainGraphgml",
+      "sha256": "48974c60e64f366c35fd558befab300ffa87001f0cc0044790de5680943a5b9c",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\27900_ms_satTerrainGraphgml",
+      "sha256": "7cd4910e11a42f7a9f51358a2f154b3525160cd7d0f9905c39aeaa9d84cb08d8",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\28800_ms_satTerrainGraphgml",
+      "sha256": "f7177cdeb06505f75fd811769c0df90bcca240150b0daa00abcbd6a17ee5cfa6",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\29700_ms_satTerrainGraphgml",
+      "sha256": "55f5d9e3329a1781c72cc1adab29e6fa0cb803a24f80665e22a155c3409fa70b",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\30600_ms_satTerrainGraphgml",
+      "sha256": "877e2828bf654d7daaf89a60bae93d4124bd42b75ea92177d27da0345f7d79dc",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\31500_ms_satTerrainGraphgml",
+      "sha256": "8065fb5ae00a939a591c9be1b7c88734947ecac844f1723493cbc741af186344",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\32400_ms_satTerrainGraphgml",
+      "sha256": "d79b23e44ee902f61023e72d75f68f1529ed3f50340c61a77e215d84bc818e08",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\33300_ms_satTerrainGraphgml",
+      "sha256": "a832fca7a26676c94f4cde585d67274fe25619dc4d53605365e256e1861ea6bb",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\34200_ms_satTerrainGraphgml",
+      "sha256": "ba1d889f0bd32976435029a1cd3c819086547265f8a641667d32aa7aaec4e40b",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\35100_ms_satTerrainGraphgml",
+      "sha256": "0a3f55a198f9fb8cc2504e336e0bbcb4a8ac2a866426cf01e1ffb7f018ccec2f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\36000_ms_satTerrainGraphgml",
+      "sha256": "af0bd6677e60f1b0061fbfd3ccd6570c9b84a15afb429ca2b9e1c535462455ec",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\36900_ms_satTerrainGraphgml",
+      "sha256": "3ffa004b8f3984c4180d8217aa1e5d905df8e43bc4f3a68f2db6f65669f81461",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\37800_ms_satTerrainGraphgml",
+      "sha256": "df2550b1162b610f84c0326afbba452c4e702f402745d4040668cafaa49a550a",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\38700_ms_satTerrainGraphgml",
+      "sha256": "f41254d49f8514f08417233f0dced8852dc6c6e094ba6eec184dbd5f35e24308",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\39600_ms_satTerrainGraphgml",
+      "sha256": "50915c554d30513a76ce53160ec1b0cbe3dd0709ea75674affd5ffec2a395fab",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\40500_ms_satTerrainGraphgml",
+      "sha256": "aa43ce7249d9cf69d5c83baf01ce899933d8b976d1491667d1d7bebc274a6ef5",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\41400_ms_satTerrainGraphgml",
+      "sha256": "985dcfc3a94430fcae0ea96e808e8888fe7fe4b9a5da81ce68ac7c25a4d04ad4",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\42300_ms_satTerrainGraphgml",
+      "sha256": "bbe673cf1cc7eac72b18710db165a4fb24b929865ea3e00273b74bd29d49aa26",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\43200_ms_satTerrainGraphgml",
+      "sha256": "d915925fabba3b9ceda4fcf98dec185a469141f155de6c4afb15cd9ee91746e3",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\GSLlink\\43200_ms_GSLLink.txt",
+      "sha256": "8b9512b58ec8c1524a7ee0feb435d6959f9b2e9f53e782febf2a9d0a096300d8",
+      "role": "archived_candidate_links"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\44100_ms_satTerrainGraphgml",
+      "sha256": "8924f8c08d806fad1f73a3ae401310e6a65af4932b1fbd69e8a991f84a79afa6",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\45000_ms_satTerrainGraphgml",
+      "sha256": "104a0757b76b17f44f60ba9db5ace66bdb9fe2224714ff550ebe5d185457bf82",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\45900_ms_satTerrainGraphgml",
+      "sha256": "c3e1c368f39f72d4535d310775fb0530af8ce9492c8d5e421710b7d8ed069a60",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\46800_ms_satTerrainGraphgml",
+      "sha256": "481107ce70418b7a2876d46c09a31591fbb90bbf1bc5ca3b3d3747d517098ca7",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\47700_ms_satTerrainGraphgml",
+      "sha256": "40d5f2a6d5d9b65837cf75afbe86d38c4fc22b8ec5863b8fd055090ff56eca44",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\48600_ms_satTerrainGraphgml",
+      "sha256": "da273f8492fcb043ff32fe824add5e9d4531330c30b1d8784938935162f80406",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\49500_ms_satTerrainGraphgml",
+      "sha256": "cef2211fd2f24c811a5150e572dc8092408806ca469e0bf4a70ed306b8ef084f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\50400_ms_satTerrainGraphgml",
+      "sha256": "5d63b8b4cfc4f0a6a88d7579ff44696692b115522e43ee5642d9c9934f9f0f62",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\51300_ms_satTerrainGraphgml",
+      "sha256": "ea7c0f653ac59990285a02721623b91bde0daff705066aad8ec973c2f149c769",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\52200_ms_satTerrainGraphgml",
+      "sha256": "7fae57abc9043443fa26e92ec15d671244a5fa06d7eb1b36a70cf8669fc7aaa9",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\53100_ms_satTerrainGraphgml",
+      "sha256": "c5545646d45900fc355bdcf1bd25a76ee962ff92d00a2e224561925b7a49a93b",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\54000_ms_satTerrainGraphgml",
+      "sha256": "24a9b7eee8a01339642445a209588054ecdd6639c442d582c5a11535fbe6a24e",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\54900_ms_satTerrainGraphgml",
+      "sha256": "dc209f782c9a020c598398fd986f864cbf89f3adfd1e2606bdc4bad7c519d759",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\55800_ms_satTerrainGraphgml",
+      "sha256": "94308e5aefe744191fa2ca04d769d60b47db483f79e4beb1e5c246d22ceffc16",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\56700_ms_satTerrainGraphgml",
+      "sha256": "d84f06b2f776097c1ced84bff1769f290a1ba31324e5b255b9f1cf31fc45462f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\57600_ms_satTerrainGraphgml",
+      "sha256": "9792cb4a80386db8960da00a657f312695a3589511927aa42aeb0a8b0320a89a",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\58500_ms_satTerrainGraphgml",
+      "sha256": "445cf1637b5ac983aa183a52228a44d4ac09b520db1bcd70c23657f9c6cdd721",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\59400_ms_satTerrainGraphgml",
+      "sha256": "077125a18e92b1b50175a064444875cfd07a0f555919b71aea29cb7ace5a0f60",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\60300_ms_satTerrainGraphgml",
+      "sha256": "1aca303f2428d4fbdd308a9b73e7938fcd598451075ea5027759543ad56ced8e",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\61200_ms_satTerrainGraphgml",
+      "sha256": "50335097bdb4bd32b1de61093e3f66bc8374bba7552d42b88c4122abe5a2a9af",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\62100_ms_satTerrainGraphgml",
+      "sha256": "3d0a9c7d3f423b937b96086b82d232cee7681864cab94f9a64bae3528d44fee6",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\63000_ms_satTerrainGraphgml",
+      "sha256": "ec1c00d497832e4cd71f4d1ae8d84bea9d58c80f87ff3b1b8156ea5924a31555",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\63900_ms_satTerrainGraphgml",
+      "sha256": "59d077d1f6585c1861a858a25fe24b431f69e451ff15b672a3ae732932f3b3d9",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\64800_ms_satTerrainGraphgml",
+      "sha256": "296327a881b51a307b4e50b22e99452f6c5abafddf5645957c6f4365a0dbcbf1",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\GSLlink\\64800_ms_GSLLink.txt",
+      "sha256": "d63400b86af395645a52f5be4bc54c8d50cd20d374b8580d72d48f24e49acb9b",
+      "role": "archived_candidate_links"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\65700_ms_satTerrainGraphgml",
+      "sha256": "056b66a0316fd45970427203717e961c8c60ee10a7e9645ee308c5ac1937f3d1",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\66600_ms_satTerrainGraphgml",
+      "sha256": "a3be0b2ed90047e6399fb54b33a679437025c98dc6127ffc6a3787c7317f7bc1",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\67500_ms_satTerrainGraphgml",
+      "sha256": "9f2f851acb86f18ee0403482417165811cd6478bca870e2ad2d3bc46341071f0",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\68400_ms_satTerrainGraphgml",
+      "sha256": "fbc5ccae5dc7175b10600207d68c2316ad0874a819de88ff933a4a3334477083",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\69300_ms_satTerrainGraphgml",
+      "sha256": "fef3e9653cbcbaaed8252998a33ccd4fd1f6189a673939dd646fc9459e263ec6",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\70200_ms_satTerrainGraphgml",
+      "sha256": "16d9b6a0a62fdbd5c3e8304eec88d6e61ae2b17faacfce2a7dc8ddd56250de2f",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\71100_ms_satTerrainGraphgml",
+      "sha256": "e5904e56d943d3d1cd0f9cef11addb11fab9cb2326ade080a517fe006eeb1583",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\72000_ms_satTerrainGraphgml",
+      "sha256": "b755baca6c532c11d84924951bc2cb3df7cf07ac0c9b70f7b75c1843b48e1eec",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\72900_ms_satTerrainGraphgml",
+      "sha256": "abb59ab51b538e84bdb6912ad6f957d8395e29f24cd0380def0b2f2a7034725a",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\73800_ms_satTerrainGraphgml",
+      "sha256": "1822c56b256843dfe8b2d858c5d096be7aacc3b0640ff1d98b91b9ba6dc421eb",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\74700_ms_satTerrainGraphgml",
+      "sha256": "58e220e2e9fa5889921deeccfae2f529bb4329aa139f60afc961242ca217a08d",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\75600_ms_satTerrainGraphgml",
+      "sha256": "17bfc2238c57cbda120e8a846f01f3d91c23c4f2408587c470e5e481d2c96180",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\76500_ms_satTerrainGraphgml",
+      "sha256": "e64174d2773912852b9710d605a0e0b11bff43e976ad2d049781bc4bf88fe7e9",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\77400_ms_satTerrainGraphgml",
+      "sha256": "cb86ad04465df022ec28a404cfb56029fecb71a71b32616ce926f13d5b22b72c",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\78300_ms_satTerrainGraphgml",
+      "sha256": "d2688245cba9b870406a16fd27f407027d38bc97b8e9236092cd511d939f257d",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\79200_ms_satTerrainGraphgml",
+      "sha256": "445b42e1b881b1641c8b5758c8a545986d75cf6747002fda7e5884b55231b46b",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\80100_ms_satTerrainGraphgml",
+      "sha256": "9638b2bb1beae24ff2cce87b00bc34d75d7e5ed8753d6476d531fbab98a1534a",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\81000_ms_satTerrainGraphgml",
+      "sha256": "72b8eb5bab5c0d580929609bbaab35b1dd658aaa24470a30df77775ccccf6684",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\81900_ms_satTerrainGraphgml",
+      "sha256": "a85294c91fd4079159c3ced776b8b9546d2d229a96ec9883e3c0a5fb50441b6d",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\82800_ms_satTerrainGraphgml",
+      "sha256": "11c23442a21385624a82cdba0fa1dc14c42cb6cfe226457201edb75acdd5d003",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\83700_ms_satTerrainGraphgml",
+      "sha256": "24c3f064c1ea2ea540bb224b8bd2d981fe5e96a45022f11e99ed8e1d8f4cd9c7",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\84600_ms_satTerrainGraphgml",
+      "sha256": "42998dd790679572630be7f55a3fef3735059459e24f4ebd697cfe5348d1f711",
+      "role": "archived_graph"
+    },
+    {
+      "path": "F:\\BaiduNetdiskDownload\\毕业代码\\NetworkSurvivability\\satData\\8_50_1130_55_5000_60ms\\Graph\\satTerrainGraph\\85500_ms_satTerrainGraphgml",
+      "sha256": "1c2f8bf31ae741374f31d962fb65e2cd494e1eddb8a870dfcc13621ebec7bd8c",
+      "role": "archived_graph"
+    }
+  ],
+  "bootstrap_seed_policy": "Identical paired degree arrays within a network/snapshot share the seed of the first scenario in SCENARIOS order.",
+  "elevation_tie_tolerance_rad": 1e-12
+}

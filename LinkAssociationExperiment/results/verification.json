@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "graph_records": 1536,
+  "tail_tests": 64,
+  "source_files_hash_verified": 301,
+  "independent_geometry_graphs": 16,
+  "deterministic_tail_repeat": "Shell3 / sphere_single / 0 min",
+  "limitations": "Cartesian cross-check covers t=0; source hashes and graph-array checks cover all saved snapshots."
+}
